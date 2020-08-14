@@ -1,7 +1,7 @@
 # SimpleAPI
 A simple api request for the sunrise/sunset information of a specific date and location. (latitude/longitude)
 
-Created a swift based app that displays jokes with hidden answers.
+Created a swift based app that sends a request to sunride-sunset.org that displays the provided data of sunrises and sunsets.
 
 ### This app utilizes basic uikit objects:
 - Labels that display the sunrise and sunset info<br>
