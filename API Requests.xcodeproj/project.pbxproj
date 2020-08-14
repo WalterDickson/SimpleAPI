@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD1C0ABC24E170E00067627E /* API_Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C0ABB24E170E00067627E /* API_Requests.swift */; };
+		FD1C0AC324E5C6790067627E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C0ABF24E5C6790067627E /* Utilities.swift */; };
+		FD1C0AC424E5C6790067627E /* Style+iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C0AC024E5C6790067627E /* Style+iPad.swift */; };
+		FD1C0AC524E5C6790067627E /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C0AC124E5C6790067627E /* Style.swift */; };
+		FD1C0AC624E5C6790067627E /* Style+iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C0AC224E5C6790067627E /* Style+iPhone.swift */; };
 		FDC9F8B824D7A13E00BFD3C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC9F8B724D7A13E00BFD3C7 /* AppDelegate.swift */; };
 		FDC9F8BA24D7A13E00BFD3C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC9F8B924D7A13E00BFD3C7 /* SceneDelegate.swift */; };
 		FDC9F8BC24D7A13E00BFD3C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC9F8BB24D7A13E00BFD3C7 /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD1C0ABB24E170E00067627E /* API_Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Requests.swift; sourceTree = "<group>"; };
+		FD1C0ABF24E5C6790067627E /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		FD1C0AC024E5C6790067627E /* Style+iPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Style+iPad.swift"; sourceTree = "<group>"; };
+		FD1C0AC124E5C6790067627E /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		FD1C0AC224E5C6790067627E /* Style+iPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Style+iPhone.swift"; sourceTree = "<group>"; };
 		FDC9F8B424D7A13E00BFD3C7 /* API Requests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API Requests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC9F8B724D7A13E00BFD3C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDC9F8B924D7A13E00BFD3C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +47,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD1C0ABD24E5C6790067627E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD1C0ABE24E5C6790067627E /* Styling UI */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		FD1C0ABE24E5C6790067627E /* Styling UI */ = {
+			isa = PBXGroup;
+			children = (
+				FD1C0ABF24E5C6790067627E /* Utilities.swift */,
+				FD1C0AC024E5C6790067627E /* Style+iPad.swift */,
+				FD1C0AC124E5C6790067627E /* Style.swift */,
+				FD1C0AC224E5C6790067627E /* Style+iPhone.swift */,
+			);
+			path = "Styling UI";
+			sourceTree = "<group>";
+		};
 		FDC9F8AB24D7A13E00BFD3C7 = {
 			isa = PBXGroup;
 			children = (
@@ -59,7 +88,9 @@
 				FDC9F8B724D7A13E00BFD3C7 /* AppDelegate.swift */,
 				FDC9F8B924D7A13E00BFD3C7 /* SceneDelegate.swift */,
 				FDC9F8BB24D7A13E00BFD3C7 /* ViewController.swift */,
+				FD1C0ABB24E170E00067627E /* API_Requests.swift */,
 				FDC9F8BD24D7A13E00BFD3C7 /* Main.storyboard */,
+				FD1C0ABD24E5C6790067627E /* Support Files */,
 				FDC9F8C024D7A14200BFD3C7 /* Assets.xcassets */,
 				FDC9F8C224D7A14200BFD3C7 /* LaunchScreen.storyboard */,
 				FDC9F8C524D7A14200BFD3C7 /* Info.plist */,
@@ -140,7 +171,12 @@
 			files = (
 				FDC9F8BC24D7A13E00BFD3C7 /* ViewController.swift in Sources */,
 				FDC9F8B824D7A13E00BFD3C7 /* AppDelegate.swift in Sources */,
+				FD1C0ABC24E170E00067627E /* API_Requests.swift in Sources */,
+				FD1C0AC324E5C6790067627E /* Utilities.swift in Sources */,
+				FD1C0AC624E5C6790067627E /* Style+iPhone.swift in Sources */,
 				FDC9F8BA24D7A13E00BFD3C7 /* SceneDelegate.swift in Sources */,
+				FD1C0AC524E5C6790067627E /* Style.swift in Sources */,
+				FD1C0AC424E5C6790067627E /* Style+iPad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
